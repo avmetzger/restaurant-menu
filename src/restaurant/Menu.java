@@ -19,7 +19,16 @@ public class Menu {
     public void setMenuItems(MenuItem item){
         menuItems.add(item);
     }
+
     public Date getLastUpdated(){
         return lastUpdated;
+    }
+
+    @Override
+    public String toString() {
+        return "Menu{" +
+                "menuItems=" + menuItems +
+                ", lastUpdated=" + lastUpdated +
+                '}';
     }
 }
