@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac371929-ac98-4dad-b2d4-4a8f76583578" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/restaurant/MainRestaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restaurant/MainRestaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurant-menu/restaurant/MainRestaurant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurant-menu/restaurant/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurant-menu/restaurant/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurant-menu/restaurant/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurant-menu/restaurant/MenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/restaurant/MainRestaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restaurant/Restaurant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/restaurant/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restaurant/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/restaurant/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restaurant/MenuItem.java" afterDir="false" />
     </list>
@@ -31,14 +35,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../studios/src/restaurant" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
-    <configuration name="MainRestaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="restaurant.MainRestaurant" />
+    <configuration name="Restaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="restaurant.Restaurant" />
       <module name="restaurant-menu" />
       <extension name="coverage">
         <pattern>
@@ -94,22 +99,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1578967830243" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1579134093768">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1579138719257">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1579134093768" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1579134093767">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1579138719257" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1579138719256">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1579134093767" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1579134093766">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1579138719256" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1579138719256">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1579134093766" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1579134093768">
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1579138719256" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1579138719257">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1579134093768" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1579138719257" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1579133593163">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

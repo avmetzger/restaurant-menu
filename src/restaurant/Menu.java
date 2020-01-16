@@ -1,34 +1,70 @@
 package restaurant;
 
 import java.time.Instant;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
-import java.util.ArrayList;
+import java.time.LocalDateTime;
+import java.util.*;
 
 public class Menu {
-    private List<MenuItem> menuItems = new ArrayList<>();
-    private Date lastUpdated;
+    private List<MenuItem> menuItems;
+    private LocalDateTime lastUpdated;
 
-    public Menu() {
-        this.lastUpdated = Date.from(Instant.now());
+    public Menu(List<MenuItem> menuItems) {
+        this.menuItems = menuItems;
+        this.lastUpdated = LocalDateTime.now();
     }
+    public Menu(){
+        this.menuItems = new ArrayList<>();
+        this.lastUpdated = LocalDateTime.now();
+    }
+
     public List<MenuItem> getMenuItems(){
         return menuItems;
     }
-    public void setMenuItems(MenuItem item){
-        menuItems.add(item);
+
+    public void addMenuItem(MenuItem item){
+        if (this.menuItems.contains(item)){
+            System.out.println(item.getItemName() + " is already on the menu.");
+        } else {
+            item.setIsNew(true);
+            menuItems.add(item);
+            this.lastUpdated = LocalDateTime.now();
+        }
+    }
+    public void removeMenuItem(MenuItem item){
+        if (menuItems.contains(item)){
+            menuItems.remove(item);
+        } else {
+            System.out.println("Menu Item not found on menu.");
+        }
+        this.lastUpdated = LocalDateTime.now();
     }
 
-    public Date getLastUpdated(){
+    public LocalDateTime getLastUpdated(){
         return lastUpdated;
     }
 
+    public void printMenu(){
+        System.out.println("Menu:");
+        for (MenuItem item : this.menuItems){
+            System.out.println(item +"\n-------------");
+        }
+        System.out.println("\nLast Updated:" + lastUpdated);
+    }
     @Override
     public String toString() {
-        return "Menu{" +
-                "menuItems=" + menuItems +
-                ", lastUpdated=" + lastUpdated +
-                '}';
+        return "Menu:\n" + menuItems +"\nLast Updated:" + lastUpdated;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Menu menu = (Menu) o;
+        return Objects.equals(menuItems, menu.menuItems);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(menuItems);
     }
 }
