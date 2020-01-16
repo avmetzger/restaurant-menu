@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac371929-ac98-4dad-b2d4-4a8f76583578" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/restaurant-menu/restaurant/MainRestaurant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/restaurant-menu/restaurant/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurant-menu/restaurant/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/restaurant-menu/restaurant/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurant-menu/restaurant/MenuItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/restaurant/MainRestaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restaurant/Restaurant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/restaurant/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restaurant/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/restaurant/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restaurant/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/restaurant/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restaurant/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

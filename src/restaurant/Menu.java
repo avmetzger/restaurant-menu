@@ -12,17 +12,18 @@ public class Menu {
         this.menuItems = menuItems;
         this.lastUpdated = LocalDateTime.now();
     }
-    public Menu(){
+
+    public Menu() {
         this.menuItems = new ArrayList<>();
         this.lastUpdated = LocalDateTime.now();
     }
 
-    public List<MenuItem> getMenuItems(){
+    public List<MenuItem> getMenuItems() {
         return menuItems;
     }
 
-    public void addMenuItem(MenuItem item){
-        if (this.menuItems.contains(item)){
+    public void addMenuItem(MenuItem item) {
+        if (this.menuItems.contains(item)) {
             System.out.println(item.getItemName() + " is already on the menu.");
         } else {
             item.setIsNew(true);
@@ -30,8 +31,9 @@ public class Menu {
             this.lastUpdated = LocalDateTime.now();
         }
     }
-    public void removeMenuItem(MenuItem item){
-        if (menuItems.contains(item)){
+
+    public void removeMenuItem(MenuItem item) {
+        if (menuItems.contains(item)) {
             menuItems.remove(item);
         } else {
             System.out.println("Menu Item not found on menu.");
@@ -39,20 +41,21 @@ public class Menu {
         this.lastUpdated = LocalDateTime.now();
     }
 
-    public LocalDateTime getLastUpdated(){
+    public LocalDateTime getLastUpdated() {
         return lastUpdated;
     }
 
-    public void printMenu(){
+    public void printMenu() {
         System.out.println("Menu:");
-        for (MenuItem item : this.menuItems){
-            System.out.println(item +"\n-------------");
+        for (MenuItem item : this.menuItems) {
+            System.out.println(item + "\n-------------");
         }
         System.out.println("\nLast Updated:" + lastUpdated);
     }
+
     @Override
     public String toString() {
-        return "Menu:\n" + menuItems +"\nLast Updated:" + lastUpdated;
+        return "Menu:\n" + menuItems + "\nLast Updated:" + lastUpdated;
     }
 
     @Override
